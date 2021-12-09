@@ -1,0 +1,2 @@
+spark-submit task1.py /user/CS-GY-6513/test_data/parking-violations-header.csv /user/CS-GY-6513/test_data/open-violations-header.csv
+spark-submit task1.py /user/CS-GY-6513/parking-violations/parking-violations-header.csv /user/CS-GY-6513/parking-violations/open-violations-header.csv
