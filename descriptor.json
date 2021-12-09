@@ -1,0 +1,19 @@
+{
+    "id": "housing_project_newyork_2014-2021",
+    "name": "Housing project in NYC from 2014 to 2021",
+    "description": "All housing project name and street name of NYC in 2014 to 2021.",
+    "url": "https://raw.githubusercontent.com/LYX0429/Big-Data-Group02/main/spark/data1.tsv",
+    "checksum": "",
+    "webpage": "https://github.com/LYX0429/Big-Data-Group02/blob/main/spark/data1.tsv",
+    "schema": [
+        {"id": "project id", "name": "Project ID", "description": "Project Name", "dtype": "text"},
+        {"id": "street", "name": "Street", "description": "Street", "dtype": "text"},
+        {"id": "zip", "name": "Zip", "description": "Zip Code", "dtype": "text"}
+    ],
+    "format": {
+        "type": "csv",
+        "parameters": {
+            "delim": "\t"
+        }
+    }
+}
