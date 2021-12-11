@@ -3,7 +3,7 @@ from operator import add
 from pyspark import SparkContext
 from csv import reader
 
-c = SparkContext()
+sc = SparkContext()
 #Inclusionary Housing Projects
 fileName = "/user/CS-GY-6513/project_data/data-cityofnewyork-us.jafx-rvrb.csv"
 data_full = sc.textFile(fileName, 1)
